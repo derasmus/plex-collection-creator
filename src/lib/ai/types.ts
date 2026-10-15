@@ -67,11 +67,10 @@ export const AI_PROVIDERS: AIProviderInfo[] = [
     id: "anthropic",
     name: "Anthropic",
     description: "Claude models via Anthropic API",
-    defaultModel: "claude-sonnet-4-20250514",
+    defaultModel: "claude-haiku-5-5",
     models: [
-      "claude-sonnet-4-20250514",
-      "claude-3-5-sonnet-20241022",
-      "claude-3-5-haiku-20241022",
+      "claude-haiku-5-5",
+      "claude-sonnet-5-5",
     ],
     requiredFields: [
       {
