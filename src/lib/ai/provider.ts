@@ -19,7 +19,7 @@ import { eq } from "drizzle-orm";
  * Fast/cheap model IDs for lightweight tasks (deduplication, etc.)
  */
 const FAST_MODELS: Record<AIProvider, string> = {
-  anthropic: "claude-3-haiku-20240307",
+  anthropic: "claude-haiku-5-5",
   bedrock: "anthropic.claude-3-haiku-20240307-v1:0",
   vertex: "claude-3-haiku@20240307",
   openai: "gpt-4o-mini",
